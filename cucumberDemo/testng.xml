@@ -2,8 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+<<<<<<< HEAD
     <classes>
       <class name="stepDefinitions.StepDef2"/>
     </classes>
+=======
+>>>>>>> branch 'master' of https://github.com/thouxzzh/CucumberOrangeHRM.git
   </test> <!-- Test -->
 </suite> <!-- Suite -->

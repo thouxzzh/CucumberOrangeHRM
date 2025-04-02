@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import java.time.Duration;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -68,6 +69,7 @@ public class StepDef2 {
 	public void i_want_to_enter_username_as_laks() {
 		 WebElement ele1 = driver.findElement(By.xpath("//input[@name='username']"));
 	        ele1.sendKeys("Thoushi");
+
 	}
 
 	@Then("I verify the Fail in step")
